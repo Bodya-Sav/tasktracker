@@ -10,7 +10,7 @@ import './index.css'
 
 createRoot(document.getElementById("root")!).render(
   //<QueryClientProvider client={queryClient}>
-    <BrowserRouter>
+    <BrowserRouter basename="/tasktracker/">
       <App />
     </BrowserRouter>
   //</QueryClientProvider>

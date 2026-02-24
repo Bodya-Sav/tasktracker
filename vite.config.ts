@@ -3,12 +3,11 @@ import preact from "@preact/preset-vite";
 import path from "path";
 
 // https://vitejs.dev/config/
-export default defineConfig(({ mode }) => {
-  const isProd = mode === "production";
+export default defineConfig(() => {
 
   return {
     plugins: [preact()],
-    base: isProd ? '/tasktracker/' : '/',
+    base: '/tasktracker/',
     server: {
       host: "0.0.0.0",
       port: 5175,
