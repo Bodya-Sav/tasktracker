@@ -164,6 +164,8 @@ localStorage.clear();
 location.reload();
 ```
 
+> **Важно:** Если при первом запуске приложение не отображает данные, нажмите на **три точки** в правой части хэдера и выберите **«Восстановить данные»**.
+
 ### Production-режим (Backend API)
 
 Для подключения реального бэкенда:
@@ -407,6 +409,8 @@ App auto-initializes data on first launch:
 localStorage.clear();
 location.reload();
 ```
+
+> **Important:** If the app doesn't display data on first launch, tap the **three dots** in the right side of the header and select **«Restore Data»**.
 
 ### Production Mode (Backend API)
 

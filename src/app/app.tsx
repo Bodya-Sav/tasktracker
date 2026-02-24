@@ -295,7 +295,7 @@ function App() {
           {/* аватарка: если в проекте есть статический файл /avatar.png — он будет показан, иначе AvatarFallback покажет инициалы */}
           <Avatar>
             <AvatarImage
-              src="/avatar.jpg"
+              src="./avatar.jpg"
               alt={`${user?.username ?? "User"} avatar`}
             />
             <AvatarFallback className="rounded-full bg-secondary">
