@@ -1,0 +1,20 @@
+[
+  {
+    "title": "Тестовая задача 1",
+    "description": "Описание тестовой задачи 1",
+    "priority": "high",
+    "status": "todo"
+  },
+  {
+    "title": "Тестовая задача 2",
+    "description": "Описание тестовой задачи 2",
+    "priority": "medium",
+    "status": "todo"
+  },
+  {
+    "title": "Тестовая задача 3",
+    "description": "Описание тестовой задачи 3",
+    "priority": "low",
+    "status": "todo"
+  }
+]

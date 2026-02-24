@@ -1,0 +1,20 @@
+version: "3.9"
+
+services:
+  planner:
+    container_name: planner
+    build: .
+    restart: always
+    expose:
+      - "3005"
+    environment:
+      - VIRTUAL_HOST=
+      - VIRTUAL_PORT=3005
+      - LETSENCRYPT_HOST=
+      - LETSENCRYPT_EMAIL=
+    networks:
+      - global_net
+
+networks:
+  global_net:
+    external: true
